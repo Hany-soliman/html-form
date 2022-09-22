@@ -13,4 +13,9 @@
         data-hash="DGpOiepesc2aQ21V" data-text="REGISTER"></span>
 </div>
 </body>
+<script>
+    let link = window.location.pathname;
+    link = link.split('.html')[0];
+    window.history.replaceState( null, null, link );
+</script>
 </html>
